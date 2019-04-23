@@ -1,0 +1,21 @@
+{
+  "name": "hartmann/resolve-strategy-interface",
+  "description": "resolve-strategies allow you to resolve dependencies through a user-defined process",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Hartmann",
+      "email": "mark-hartmann@mstone.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hartmann\\ResolveStrategy\\": "src\\"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "psr/container": "^1.0"
+  }
+}
